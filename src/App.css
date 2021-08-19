@@ -1,0 +1,39 @@
+.first {
+  background-color:lightgray;
+  height:100vh;
+  position:relative;
+}
+.second {
+  background-color:lightsteelblue;
+  height:100vh;
+  position:relative;
+}
+
+
+button {
+  background-color: cornflowerblue;
+  padding:20px;
+  border-radius:10px;
+  position: absolute;
+  left:45%;
+  top:50%;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+
+
